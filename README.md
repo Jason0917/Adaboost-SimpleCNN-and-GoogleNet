@@ -64,3 +64,11 @@ o2 = 0.9792
 loss = 0.0001
 ```
 ## Question 4
+### Running
+To run NaiveGoogLeNet with default settings, run
+```
+python train_naive_googlenet.py
+```
+If you want to disable auxilary training, run
+```
+python train_naive_googlenet.py --
