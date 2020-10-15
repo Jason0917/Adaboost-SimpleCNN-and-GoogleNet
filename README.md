@@ -81,3 +81,5 @@ If you meet cuda out of memory problem, run
 ```
 python train_googlenet.py ----batch-size 16
 ```
+### Data
+Both GoogLeNet and NaiveGoogLeNet are trained and tested on [MNIST dataset](http://yann.lecun.com/exdb/mnist/)
