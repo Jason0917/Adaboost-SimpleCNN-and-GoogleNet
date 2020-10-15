@@ -14,8 +14,7 @@ Simply run
 python adaboost.py
 ```
 ### Experiment
-I use adaboost classifier to divide integers into positive numbers and negative numbers.<br>
-<br>
+I use adaboost classifier to divide integers into positive numbers and negative numbers.
 #### Dataset
 Integers: [-1, -2, -3, -4, -5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, -1, -2, -3, 4, 5]<br>
 Labels: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, 1, 1]<br>
