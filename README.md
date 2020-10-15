@@ -73,3 +73,11 @@ If you meet cuda out of memory problem, run
 ```
 python train_naive_googlenet.py ----batch-size 16
 ```
+To run GoogLeNet with default settings, run
+```
+python train_googlenet.py
+```
+If you meet cuda out of memory problem, run
+```
+python train_googlenet.py ----batch-size 16
+```
