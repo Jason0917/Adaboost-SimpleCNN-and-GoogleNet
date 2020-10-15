@@ -69,6 +69,7 @@ To run NaiveGoogLeNet with default settings, run
 ```
 python train_naive_googlenet.py
 ```
-If you want to disable auxilary training, run
+If you meet cuda out of memory problem, run
 ```
-python train_naive_googlenet.py --
+python train_naive_googlenet.py ----batch-size 16
+```
