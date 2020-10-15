@@ -13,11 +13,16 @@ Simply run
 ```
 python adaboost.py
 ```
+### Parameters
+| Number of weak classifiers | Learning rate |
+| :-: | :-: |
+| 50 | 1e-5 |
 ### Experiment
 I use adaboost classifier to divide integers into positive numbers and negative numbers.
 #### Dataset
 Integers: [-1, -2, -3, -4, -5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, -1, -2, -3, 4, 5]<br>
 Labels: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -1, -1, 1, 1]<br>
+
 #### Training and Testing
 ```python
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
@@ -26,11 +31,15 @@ adaboost.train(X_train.reshape(-1, 1), y_train)
 y_pred = adaboost.predict(X_test.reshape(-1, 1))
 loss = (y_test - y_pred).sum()
 ```
-#### output
+#### Result
 ```
 loss = 0.0
 ```
 ## Question 3
-
+### Running
+Simply run 
+```
+python simpleNetwork.py
+```
 
 ## Question 4
