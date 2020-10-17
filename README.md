@@ -4,7 +4,7 @@ This is the coding part of UAlberta Multimedia Master Program - MM811 2020 Assig
 <br>
 
 ## Question 1
-For non-coding Question 1, please refer to [Question 1 Answer]().
+For non-coding Question 1, please refer to [Question 1 Answer](https://drive.google.com/file/d/1xqGSHx7e2MgVkuqyMApFCYkTSvht9JmP/view?usp=sharing).
 
 ## Question 2
 In Question2/adaboost.py, I implemented an adaboost classifier and designed a simple experiment to test the classifier.
@@ -84,3 +84,18 @@ python train_googlenet.py ----batch-size 16
 ### Data
 Both GoogLeNet and NaiveGoogLeNet are trained and tested on [MNIST dataset](http://yann.lecun.com/exdb/mnist/).
 
+### Experiment
+Due to the limitation of my computing resources, I only trained GoogLeNet and NaiveGoogLeNet for two epochs respectively. But their gap has been quite obvious.
+
+#### Result
+##### GoogLeNet
+| Train Time | Test Loss | Accuracy |
+| :-: | :-: | :-: |
+| 405.76s |-3.41 | 94% |
+##### NaiveGoogLeNet
+| Train Time | Test Loss | Accuracy |
+| :-: | :-: | :-: |
+| 20504.23s |13.49 | 85% |
+
+#### Analysis
+Compared with Naive Inception Module, Inception Module with Dimension Reduction significantly performs better for both training speed and model accuracy. By introducing 1x1 convolution, the dimensions of previous layer's input are greatly reduced and thus, the number of parameters that need to be updated are lessened as well. Such inception module
