@@ -98,4 +98,4 @@ Due to the limitation of my computing resources, I only trained GoogLeNet and Na
 | 20504.23s |13.49 | 85% |
 
 #### Analysis
-Compared with Naive Inception Module, Inception Module with Dimension Reduction significantly performs better for both training speed and model accuracy. By introducing 1x1 convolution, the dimensions of previous layer's input are greatly reduced and thus, the number of parameters that need to be updated are lessened as well. Such inception module
+Compared with Naive Inception Module, Inception Module with Dimension Reduction significantly performs better for both training speed and model accuracy. By introducing 1x1 convolution, the dimensions of previous layer's input are greatly reduced and thus, the number of parameters that need to be updated are lessened as well. Such inception module makes it easier to train model and enables us to design deeper network.
