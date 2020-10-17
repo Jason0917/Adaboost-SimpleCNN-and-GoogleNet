@@ -1,4 +1,4 @@
-# MM811_Assignment2
+# MM811 Assignment 2
 
 This is the coding part of UAlberta Multimedia Master Program - MM811 2020 Assignment 2.
 <br>
