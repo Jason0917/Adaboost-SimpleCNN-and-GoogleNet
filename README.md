@@ -2,7 +2,7 @@
 
 This is the coding parts of UAlberta Multimedia Master Program - MM811 2020 Assignment 2.
 <br>
-For coding parts, I run my codes with python 3.8.3, pytorch 1.6.0 and torchvision 0.7.0.
+For coding parts, all my codes are runned with python 3.8.3, pytorch 1.6.0 and torchvision 0.7.0.
 
 ## Question 1
 For non-coding Question 1, please refer to [Question 1 Answer](https://drive.google.com/file/d/1xqGSHx7e2MgVkuqyMApFCYkTSvht9JmP/view?usp=sharing).
